@@ -12,12 +12,31 @@ body {
 }
 
 #header #leftHeader{
-	width: 70%;
+	width: 60%;
 	height: 100%;
 }
 
+#header #leftHeaderContent {
+	margin-left: 50px;
+}
+
+#header #leftHeaderContent h3{
+	margin: 35px 0px 0px 0px;
+    letter-spacing: 5px;
+    text-transform: uppercase;   
+}
+
+#header #leftHeaderContent p{
+    margin: 0;
+    text-transform: lowercase; 
+}
+
+.borderLeft {
+	 border-left: 10px solid #f0ff00;
+}
+
 #header #rightHeader{
-	width: 30%;
+	width: 40%;
 	height: 100%;
 }
 
