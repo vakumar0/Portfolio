@@ -48,7 +48,7 @@ body {
 }
 
 #header #rightHeader #navBar ul li{ 
-	width: 72px;
+	width: 16%;
     height: 24px;
     text-align: center;
 }
@@ -59,9 +59,10 @@ body {
     letter-spacing: 25px;
 }
 
-#vaibhav {
+#iam {
 	font-size: 48px;
 	margin-top: 0px !important;
+	letter-spacing: 10px;
 }
 
 #engineer {
@@ -78,13 +79,14 @@ body {
 	width: 100%;
 	height: 738px;	
 	display: flex;
-	background-color:#f4f4f4;
+	background-color:#b9b9b4;
+	color: #000000;
+	/*background-color:#f4f4f4;*/
 }
 
 #landingPage #leftPanel {
-	width: 66%;
+	width: 60%;
 	height: 100%;	
-	background-color: #f4f4f4;
 	font-size: 32px;
 }
 
@@ -99,7 +101,7 @@ body {
 }
 
 #landingPage #rightPanel {
-	width: 34%;
+	width: 40%;
 	height: 100%;	
 }
 
@@ -131,6 +133,8 @@ body {
  	height: 100%;
  	width: 100%;
  	border-radius: 20px;
+ 	background-repeat: no-repeat;
+ 	opacity: 0.7;
  }
 
 #about #aboutContent {
@@ -147,6 +151,18 @@ body {
     height: 400px;
     position: relative;
     top: -40px;
+}
+
+#projects #projectsInnerContent{
+	width: 60%;
+	margin: auto;
+}
+
+#projects #projectsInnerContent > div{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    margin-top: 180px;
 }
 
 #skills {
@@ -203,4 +219,16 @@ body {
 	background-color: #f4f4f4;
 	height: 200px;
 	width: 100%;
+}
+
+#ivpImage {
+	background-image: url("../image/ivp.png");
+}
+
+.projectSubheader {
+	color: white;
+}
+
+.learnMore {
+	color: white;
 }
