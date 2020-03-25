@@ -151,18 +151,21 @@ body {
     height: 400px;
     position: relative;
     top: -40px;
+    color: white;
 }
 
 #projects #projectsInnerContent{
-	width: 60%;
+	width: 80%;
 	margin: auto;
+	height: 100%;
+	display: flex;
 }
 
-#projects #projectsInnerContent > div{
-    display: inline-block;
+#projects #projectsInnerContent > div{    
     width: 33%;
     text-align: center;
-    margin-top: 180px;
+    margin-top: 11%;
+    height: 100px;
 }
 
 #skills {
@@ -211,7 +214,7 @@ body {
 }
 
 #skillsContent #content {
-	width: 30%;
+	width: 40%;
 	margin: 100px auto 100px auto;
 }
 
@@ -222,7 +225,11 @@ body {
 }
 
 #ivpImage {
-	background-image: url("../image/ivp.png");
+    background-image: url(../images/polaris.png);
+    height: 50px;
+    width: 125px;
+    background-repeat: no-repeat;
+    margin-left: 15px;
 }
 
 .projectSubheader {
@@ -231,4 +238,45 @@ body {
 
 .learnMore {
 	color: white;
+}
+
+#ivpPolaris h3{
+    font-size: 36px;	
+    margin: 0;
+    letter-spacing: 5px;
+}
+
+#ivpPolaris p{
+	margin: 0;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+#ivpHackthon #topFont{
+    font-size: 20px;	
+    margin: 0;
+}
+
+#ivpHackthon #bottomFont{
+	margin: 0;
+    font-size: 26px;
+}
+
+#ThinkLearnGrow #wrapText h3 {
+    font-size: 20px;	
+    margin: 0;
+}
+
+#wrapText {
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    margin: auto;
+    font-family: cursive;
+}
+
+#hackathonBorder{
+    border-left: 1px solid white;
+    margin: auto;
+    width: 180px;
 }
