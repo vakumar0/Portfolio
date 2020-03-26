@@ -156,7 +156,8 @@ body {
 
 #projects #projectsInnerContent{
 	width: 80%;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 	height: 100%;
 	display: flex;
 }
@@ -164,58 +165,8 @@ body {
 #projects #projectsInnerContent > div{    
     width: 33%;
     text-align: center;
-    margin-top: 11%;
-    height: 100px;
-}
-
-#skills {
-	width: 100%;
-	margin-top: 100px;
-}
-
-#skills .skillsSection {
-	width: 40%;
-    height: 800px;
-    background-color: #f4f4f4;
     margin: auto;
-    margin-top: 100px;
-}
-
-.verticalYellowDiv {
-	height: 650px;
-    background-color: #f0ff00;
-    width: 100px;
-    position: relative;
-    margin-left: 93%;
-    top: 70px;
-}
-
-#skills span{
-    font-size: 22px;
-    background-color: #fbffd7;
-    padding: 2px 10px 2px 10px;
-    border-radius: 2px;
-    margin: 0px 10px 10px 0px;
-    color: #6b0f0f;
-    display: inline-block;
-}
-
-.grey {
-	background-color: #E0E0E0;
-}
-
-.black {
-	background-color: #0f0e0e;
-	color: white;
-}
-
-#skillsContent {
-	width: 100%;
-}
-
-#skillsContent #content {
-	width: 40%;
-	margin: 100px auto 100px auto;
+    height: 100px;
 }
 
 #footer {

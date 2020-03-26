@@ -2,7 +2,14 @@
 <html>
 <header>
 	<link rel="stylesheet" type="text/css" href="css/portfolio.css">
+	<link rel="stylesheet" type="text/css" href="css/skills.css">	
 	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+	<script src="https://code.highcharts.com/highcharts.js"></script>	
+	<script src="https://code.highcharts.com/modules/wordcloud.js"></script>
+	<script src="https://code.highcharts.com/highcharts-more.js"></script>
+	<script src="https://code.highcharts.com/modules/dumbbell.js"></script>
+	<script src="https://code.highcharts.com/modules/lollipop.js"></script>
+	<script src="js/skills.js"></script>
 </header>
 <body>
 	<div id="header">
@@ -90,7 +97,20 @@
 			</div>			
 		</div>
 	</div>
-	<div id="skills">		
+	<div id="skills">	
+		<div>
+			<div class="subheader">
+				<div class="title"></div>
+				<div class="yellowDiv">
+					<h1>Tech Stack</h1>
+				</div>
+			</div>		
+			<div id="stack">
+				<div id="stackContent"></div>
+			</div>					
+		</div>						
+	</div>	
+	<!-- <div id="skills">		
 		<div class="subheader">
 			<div class="title"></div>
 			<div class="yellowDiv">
@@ -110,7 +130,8 @@
 				<span>MySQL</span>
 			</div>			
 		</div>
+	</div> -->
+	<div id="footer">		
 	</div>
-	<div id="footer"></div>
 </body>
 </html>
