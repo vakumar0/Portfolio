@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    var text = 'jQuery jQuery jQuery jQuery jQuery JavaScript JavaScript JavaScript JavaScript JavaScript HTML HTML HTML HTML HTML HTML CSS CSS CSS CSS CSS C# C# C# C# TortoiseSVN TortoiseSVN TortoiseSVN TortoiseSVN GitHub GitHub GitHub SQL-Server SQL-Server SQL-Server SQL-Server SQL-Server Knockout Knockout Knockout Data-Structures Data-Structures Data-Structures Highcharts Highcharts Highcharts Restful-API Restful-API Restful-API ag-Grid ag-Grid ag-Grid Node.js  Node.js MySQL MySQL Elastic-Search Rasa';
+    var text = 'Gimp Gimp Gimp jQuery jQuery jQuery jQuery jQuery JavaScript JavaScript JavaScript JavaScript JavaScript HTML HTML HTML HTML HTML HTML CSS CSS CSS CSS CSS C# C# C# C# TortoiseSVN TortoiseSVN TortoiseSVN TortoiseSVN GitHub GitHub GitHub SQL-Server SQL-Server SQL-Server SQL-Server SQL-Server Knockout Knockout Knockout Data-Structures Data-Structures Data-Structures Highcharts Highcharts Highcharts Restful-API Restful-API Restful-API ag-Grid ag-Grid ag-Grid Nodejs  Nodejs MySQL MySQL Elastic-Search Elastic-Search Rasa Rasa';
     var lines = text.split(/[,\. ]+/g),
         data = Highcharts.reduce(lines, function (arr, word) {
             var obj = Highcharts.find(arr, function (obj) {
@@ -30,7 +30,8 @@ document.addEventListener('DOMContentLoaded', function () {
         series: [{
             type: 'wordcloud',
             data: data,
-            name: 'Occurrences'
+            name: 'Occurrences',
+            colors: [ '#44a767','#ccca62', '#6d8f9a']
         }],
         title: {
             text: ''
@@ -40,6 +41,9 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         chart: {
             backgroundColor: '#000000',
+            style: {
+                fontFamily: 'Poppins'
+            }
         },
         tooltip: { enabled: false }
     });

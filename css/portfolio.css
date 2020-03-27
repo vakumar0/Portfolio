@@ -12,7 +12,7 @@ body {
 }
 
 #header #leftHeader{
-	width: 60%;
+	width: 75%;
 	height: 100%;
 }
 
@@ -36,21 +36,31 @@ body {
 }
 
 #header #rightHeader{
-	width: 40%;
+	width: 25%;
 	height: 100%;
 }
 
 
-#header #rightHeader #navBar ul{
+.navBar ul{
 	list-style:none;
 	display: flex;
 	margin-top: 9%;
+    float: right;
+    margin-right: 10%;
 }
 
-#header #rightHeader #navBar ul li{ 
+.navBar ul li{ 
 	width: 16%;
     height: 24px;
     text-align: center;
+    display: inline-block;
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+.navBar ul li img{ 
+    width: 40px;
+    height: 40px;
 }
 
 #hello {
@@ -144,6 +154,10 @@ body {
     padding-top: 100px;   
 }
 
+#projects {
+    margin-top: 100px;
+}
+
 #projects #projectsContent {
 	background-color: black;
     width: 90%;
@@ -167,12 +181,6 @@ body {
     text-align: center;
     margin: auto;
     height: 100px;
-}
-
-#footer {
-	background-color: #f4f4f4;
-	height: 200px;
-	width: 100%;
 }
 
 #ivpImage {
@@ -249,4 +257,59 @@ body {
 
 #skills {
 	margin-top: 150px;
+}
+
+#collage {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.picBorder {
+    width: 1064px;
+    height: 650px;
+    margin: auto;
+    border: 10px solid #f0ff00;
+}
+
+#pic1 {
+    background-image: url(../images/techUSS.png);
+    height: 610px;
+    width: 1024px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+
+
+#footer {
+    background-color: #f4f4f4;
+    height: 200px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+#footerTitle {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+#footer ul{
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    padding: 0;
+}
+
+ #footer ul li{ 
+    display: inline-block;
+    padding: 8px;
+    cursor: pointer;
+}
+
+#footer ul li img{ 
+    width: 40px;
+    height: 40px;
 }
