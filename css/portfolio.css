@@ -59,7 +59,7 @@ body {
 .navBar ul li{ 
     height: 50px;
     display: inline-block;
-    padding-right: 50px;
+    padding-right: 15%;
     cursor: pointer;
 }
 
