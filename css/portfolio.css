@@ -3,6 +3,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 #header {
 	min-width: 980px;	
 	width: 100%;
@@ -12,7 +17,7 @@ body {
 }
 
 #header #leftHeader{
-	width: 75%;
+	width: 50%;
 	height: 100%;
 }
 
@@ -36,7 +41,7 @@ body {
 }
 
 #header #rightHeader{
-	width: 25%;
+	width: 50%;
 	height: 100%;
 }
 
@@ -44,7 +49,7 @@ body {
     height: 50px;
     width: 100%;
     text-align: right;
-    margin-top: 10%;
+    margin-top: 50px;
 }
 
 .navBar ul{
@@ -59,7 +64,7 @@ body {
 .navBar ul li{ 
     height: 50px;
     display: inline-block;
-    padding-right: 15%;
+    padding-right: 7%;
     cursor: pointer;
 }
 
