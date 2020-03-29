@@ -8,6 +8,11 @@ a {
     color: white;
 }
 
+.content a {
+    color: black;
+    border-bottom: 2px solid #f0ff00;
+}
+
 #header {
 	min-width: 980px;	
 	width: 100%;
@@ -17,12 +22,13 @@ a {
 }
 
 #header #leftHeader{
-	width: 50%;
+	width: 45%;
 	height: 100%;
 }
 
 #header #leftHeaderContent {
 	margin-left: 50px;
+    height: 95px;
 }
 
 #header #leftHeaderContent h3{
@@ -43,10 +49,10 @@ a {
 #header #rightHeader{
 	width: 50%;
 	height: 100%;
+    margin-right: 5%;
 }
 
 .navBar {
-    height: 50px;
     width: 100%;
     text-align: right;
     margin-top: 50px;
@@ -62,15 +68,16 @@ a {
 }
 
 .navBar ul li{ 
-    height: 50px;
+    /*height: 50px;*/
     display: inline-block;
-    padding-right: 7%;
+    /*padding-right: 4%;
+    padding-left: 4%;*/
     cursor: pointer;
 }
 
 .navBar ul li img{ 
-    width: 32px;
-    height: 32px;
+    width: 50%;
+    height: 50%;
 }
 
 #hello {
@@ -112,7 +119,7 @@ a {
 
 #landingPage #leftPanel h1 {
 	text-align: center;
-    margin-top: 17%;
+    margin-top: 180px;
     text-transform: uppercase;
 }
 
@@ -152,13 +159,19 @@ a {
  	background-image: url("../images/dp.png");
  	height: 100%;
  	width: 100%;
- 	border-radius: 20px;
  	background-repeat: no-repeat;
  	opacity: 0.7;
  }
 
-#about #aboutContent {
+/*#about #aboutContent {
 	width: 40%;
+    text-align: justify;
+    margin: auto; 
+    padding-top: 100px;   
+}*/
+
+.content {
+    width: 40%;
     text-align: justify;
     margin: auto; 
     padding-top: 100px;   
@@ -241,7 +254,8 @@ a {
     height: 100px;
     border: 1px solid white;
     margin: auto;
-    font-family: cursive;
+    top:-18px;
+    position: relative;
 }
 
 #hackathonBorder{
@@ -283,7 +297,7 @@ a {
 
 .picInfo {
     height: 80px;
-    width: 820px;
+    width: 685px;
     background-color: #f0ff00;
     margin: auto;
     position: relative;
@@ -302,7 +316,7 @@ a {
 #pic1 {
     background-image: url(../images/techUSS.png);
     height: 610px;
-    width: 1024px;
+    width: 980px;
     margin: auto;
     margin-top: 20px;
     border-radius: 2px;
@@ -320,7 +334,7 @@ a {
 
 #footerTitle {
     text-align: center;
-    padding-top: 70px;
+    padding-top: 50px;
     font-size: 18px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -332,7 +346,7 @@ a {
     display: inline-block;
     width: 100%;
     text-align: center;
-    margin: 16px 0px 0px 0px;
+    margin: 30px 0px 0px 0px;
     padding: 0;
 }
 
@@ -343,10 +357,58 @@ a {
 }
 
 #footer ul li img{ 
-    width: 24px;
-    height: 24px;
+    width: 50%;
+    height: 50%;
 }
 
 .iconInfo {
     font-size: 11px;
+}
+
+/*************polaris css*************/
+
+.minorHeader {
+    width: 40%;
+    margin: auto;
+}
+
+.minorYellowDiv {
+    background-color: #f0ff00;
+    width: 380px;
+}
+
+.minorYellowDiv h3{
+    margin: 0;
+    padding: 5px;
+}
+
+#polarisContributionContent {
+    padding-top: 0px;
+}
+
+.confidentials {
+    background-color: #f0ff00;
+    text-align: center;
+}
+
+#polarisContributionContent ul {
+    margin: 0px 0px 0px 50px;
+}
+
+#polarisContributionContent ul li{
+    padding: 5px;
+}
+
+#homeButton {
+    position: relative;
+    top: -7px;
+    background-color: black;
+    color: #f4f4f4;
+    padding: 0px 10px 0px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+#homeButton a {
+    color: #f4f4f4;
 }
