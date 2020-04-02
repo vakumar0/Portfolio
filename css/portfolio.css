@@ -412,3 +412,19 @@ a {
 #homeButton a {
     color: #f4f4f4;
 }
+
+#hackathonBanner {
+    min-width: 980px;
+    width: 100%;
+    height: 738px;
+    background-color: #ffffff;
+}
+
+#hackathonBannerImage {
+   height: 100%;
+   width: 100%;
+}
+
+#hackathonContent li {
+    padding: 5px;
+}

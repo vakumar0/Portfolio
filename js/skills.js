@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
             type: 'wordcloud',
             data: data,
             name: 'Occurrences',
-            colors: [ '#44a767','#ccca62', '#6d8f9a']
+            colors: [ '#adabab','#ccca62', '#6d8f9a']
         }],
         title: {
             text: ''
