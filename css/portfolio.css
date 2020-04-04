@@ -154,7 +154,7 @@ a {
 .greenDiv {
   height: 50%;
   width: 40%;
-  background-color: #00ff00;
+  background-color: #49de49;
 }
 
  .yellowDiv h1 {
@@ -260,7 +260,7 @@ a {
 }
 
 #wrapText {
-    width: 100px;
+    width: 150px;
     height: 100px;
     border: 1px solid white;
     margin: auto;
