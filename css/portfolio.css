@@ -15,6 +15,7 @@ a {
 .content a {
     color: black;
     border-bottom: 2px solid #f0ff00;
+    font-weight: bold;
 }
 
 #header {
@@ -254,18 +255,16 @@ a {
     font-size: 26px;
 }
 
-#ThinkLearnGrow #wrapText h3 {
+#ThinkLearnGrow h3 {
     font-size: 20px;	
     margin: 0;
 }
 
 #wrapText {
     width: 150px;
-    height: 100px;
+    height: 68px;
     border: 1px solid white;
     margin: auto;
-    top:-18px;
-    position: relative;
 }
 
 #hackathonBorder{
@@ -574,6 +573,7 @@ a {
     margin-bottom: -4px;
     border: 1px solid #c3c3c3;
     border-radius: 4px;
+    opacity: 0.8;
 }
 
 .caption-container {
@@ -610,4 +610,20 @@ img.hover-shadow {
     z-index: 9999999;
     background-color: white;
     opacity: 0.9;
+}
+
+.viewProject {
+    border: 1px solid white;
+    width: 150px;
+    border-radius: 4px;
+    margin: 30px auto 0px auto;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.viewImage {
+    position: relative;
+    top: -185px;
+    background-color: #313131;
 }
