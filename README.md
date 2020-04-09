@@ -8,5 +8,5 @@ This is a general description of myself and a curated list of projects I have de
    - Highcharts
 
 ### Contact
-   For any suggestions contact me at kumarvaibhav1602@gmail.com
+   For any suggestions, contact me at kumarvaibhav1602@gmail.com
 
