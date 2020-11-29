@@ -19,15 +19,16 @@ a {
 }
 
 #header {
-	min-width: 980px;	
+	/* min-width: 980px;	 */
 	width: 100%;
-	height: 133px;
+	height: 100px;
 	background-color: #f4f4f4;
-	display: flex;
+	/* display: flex; */
 }
 
 #header #leftHeader{
-	width: 45%;
+    /* width: 45%; */
+    float: left;
 	height: 100%;
 }
 
@@ -37,14 +38,12 @@ a {
 }
 
 #header #leftHeaderContent h3{
-	margin: 35px 0px 0px 0px;
-    letter-spacing: 5px;
-    text-transform: uppercase;   
+    margin: 35px 0px 0px 0px;
 }
 
 #header #leftHeaderContent p{
     margin: 0;
-    text-transform: lowercase; 
+    /* text-transform: lowercase;  */
 }
 
 .borderLeft {
@@ -52,15 +51,16 @@ a {
 }
 
 #header #rightHeader{
-	width: 50%;
+    /* width: 53%; */
+    float: right;
 	height: 100%;
-    margin-right: 5%;
+    margin-right: 2%;
 }
 
 .navBar {
     width: 100%;
     text-align: right;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .navBar ul{
@@ -89,16 +89,25 @@ a {
 	font-size: 90px;
     margin: 0;
     letter-spacing: 25px;
+    font-weight: 600;
 }
 
 #iam {
 	font-size: 48px;
-	margin-top: 0px !important;
+    margin: 0 0 16px 0;
 	letter-spacing: 10px;
 }
 
 #engineer {
-	font-size: 48px;
+    font-size: 48px;
+    width: 50%;
+    transform: translate(24vw, 0);
+}
+
+#engineer p {
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
 }
 
 .highlight {
@@ -107,13 +116,24 @@ a {
 }
 
 #landingPage {
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    height: 83vh;
+    background-position: center;
+}
+
+.landingPage_container {
+    text-align: center;
+    transform: translate(-20vw, 22vh);
+}
+
+/* #landingPage {
 	min-width: 980px;	
 	width: 100%;
 	height: 738px;	
 	display: flex;
 	background-color:#b9b9b4;
-	color: #000000;
-	/*background-color:#f4f4f4;*/
+	color: #000000;	
 }
 
 #landingPage #leftPanel {
@@ -135,7 +155,7 @@ a {
 #landingPage #rightPanel {
 	width: 40%;
 	height: 100%;	
-}
+} */
 
 .subheader {
 	height: 270px;
@@ -164,6 +184,7 @@ a {
     margin: 0;
     margin-left: 15%;
     font-size: 50px;
+    font-weight: 600;
  }
 
  #rightPanel #image {
@@ -182,7 +203,7 @@ a {
 }*/
 
 .content {
-    width: 40%;
+    width: 50%;
     text-align: justify;
     margin: auto; 
     padding-top: 100px;   
@@ -193,7 +214,7 @@ a {
 }
 
 #projects #projectsContent {
-	background-color: black;
+	background: linear-gradient( to right bottom, #151414, #0a0a0a);
     width: 90%;
     margin: auto;
     height: 400px;
@@ -204,17 +225,24 @@ a {
 
 #projects #projectsInnerContent{
 	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-	height: 100%;
+    margin: 40px auto 0px auto;
 	display: flex;
 }
 
 #projects #projectsInnerContent > div{    
     width: 33%;
     text-align: center;
-    margin: auto;
     height: 100px;
+}
+
+.projectInfo {
+    width: 60%;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.projectInfo p {
+    text-align: center;
 }
 
 #ivpImage {
@@ -344,10 +372,12 @@ a {
 #footerTitle {
     text-align: center;
     padding-top: 50px;
-    font-size: 18px;
-    text-transform: uppercase;
+    font-size: 16px;
+    /* text-transform: uppercase; */
     letter-spacing: 2px;
-    font-weight: bold;
+    font-weight: 400;
+    width: 80%;
+    margin: auto;
 }
 
 #footer ul{
@@ -410,12 +440,13 @@ a {
 
 #homeButton {
     position: relative;
-    top: -7px;
+    top: -4px;
     background-color: black;
     color: #f4f4f4;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 15px 0px 10px;
     border-radius: 3px;
-    font-weight: bold;
+    font-weight: 600;
+    margin-right: 15px;
 }
 
 #homeButton a {
@@ -626,4 +657,212 @@ img.hover-shadow {
     position: relative;
     top: -185px;
     background-color: #313131;
+}
+
+.networkingIcons {
+    color: black;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.networkingIconsWhite{
+    color: fff;
+    font-size: 24px;
+    padding: 15px;
+}
+
+.networkingIcons a{
+    color: black;
+}
+
+.work_experience_container{
+    width: 50%;
+    margin: auto;
+    background-color: #f3f3f3;
+    position: relative;
+    top: -40px;
+}
+
+.work_experience_content{
+    padding: 80px;
+}
+
+.work_experience_content li{
+    margin-bottom: 15px;
+}
+
+.side_yellow_bar {
+    border-right: 80px solid #f0ff00;
+    height: 430px;
+    position: absolute;
+    top: 70px;
+    left: 96%;
+    display: block;
+}
+
+.download_resume {
+    text-align: center;
+    width: 220px;
+    background-color: #fff;
+    padding: 4px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+.download_resume a {
+    color: black;
+}
+
+.techUSS {
+    background-image: url("../images/techUSS.jpg");
+}
+
+.scholarship {
+    background-image: url("../images/scholarship.jpg");
+}
+
+.hackathon {
+    background-image: url("../images/hackathon.jpg");
+}
+
+.certificates {
+    height: 266px;
+    width: 400px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 80px 15px 0px 15px;
+    cursor: pointer;
+}
+
+.awards_section_container {
+    text-align: center;
+}
+
+.certificates_date {
+    font-weight: 600;
+    color: #fff;
+    padding: 15px 0px 0px 30px;
+}
+
+.certificates_name {
+    font-weight: 600;
+    color: #fff;
+    margin-top: 29%;
+    margin-left: 30px;
+    font-size: 30px;
+    border-bottom: 1px solid #fff;
+}
+
+.awards_gradient {
+    background: linear-gradient(45deg, #352f4c, #86868614);
+    height: 100%;
+    text-align: left;
+    visibility: show;
+}
+
+.awards_gradient:active {
+    visibility: hidden;
+}
+
+@media screen and (max-width:960px) {
+    #header #leftHeaderContent {
+        margin-left: 10px;       
+    }
+
+    #header #rightHeader {
+        margin-right: 0;
+    }
+
+    .yellowDiv {
+        height: 35%;
+        width: 80%;        
+    }
+
+    #aboutContent {
+        width: 80%;
+        padding-top: 0;
+    }
+
+    #collage {
+        width: 100%;
+        margin: 30px 5px 0px 5px;
+    }
+
+    #pic1 {
+        height:290px;
+        background-size: cover;
+        width: 95%;
+    }
+
+    .picInfo {
+        height: 57px;
+        width: 72%;
+        top: -20px;
+    }
+
+    .networkingIcons {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    #projects #projectsInnerContent > div {
+        width: 100%;        
+        height: 160px;
+        padding: 10px;
+    }
+
+    #projects #projectsInnerContent {
+        display: block;
+    }
+
+    #projects #projectsContent {
+        width: 100%;
+        height: auto;
+    }
+
+    #projects, #skills, #awards{
+        margin-top: 60px;
+    }
+
+    .viewProject{
+        margin-top: 5px;
+    }  
+    
+    #hackathonBorder, #wrapText {
+        border: none;
+    }
+
+    .work_experience_container {
+        width: 90%;
+    }
+
+    .work_experience_content {
+        padding: 20px
+    }
+
+    .side_yellow_bar{
+        display: none;
+    }
+
+    #skills .yellowDiv h1 {
+        font-size: 45px;
+    }
+
+    .landingPage_container {
+        transform: translate(0, 22vh);
+    }
+
+    #engineer {
+        width: 100%;
+        transform: translate(0, 0);
+    }
+
+    #homeButton {
+        font-size: 12px;
+        padding: 4px;
+    }
 }
