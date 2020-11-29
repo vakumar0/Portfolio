@@ -2,13 +2,13 @@
 <html>
 <header>
 	<link rel="stylesheet" type="text/css" href="css/portfolio.css">
-	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">	
-	<script src="https://code.highcharts.com/highcharts.js"></script>	
-	<script src="https://code.highcharts.com/modules/wordcloud.js"></script>
-	<script src="https://code.highcharts.com/highcharts-more.js"></script>
-	<script src="https://code.highcharts.com/modules/dumbbell.js"></script>
-	<script src="https://code.highcharts.com/modules/lollipop.js"></script>
-	<script src="js/skills.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" 
+	integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
+	crossorigin="anonymous"
+	/>
+	<!-- <script src="js/skills.js"></script> -->
 </header>
 <body>
 	<div id="loading"></div>
@@ -17,27 +17,24 @@
 			<div id="leftHeader">
 				<div id="leftHeaderContent">
 					<h3>Vaibhav Kumar</h3>			
-					<p>Full Stack, Software Engineer</p>
+					<p>Full Stack | Software Engineer</p>
 				</div>			
 			</div>
 			<div id="rightHeader">
 				<div class="navBar">
 					<ul>
-						<li id="homeButton">
-							<span><a href="index.html">Home</a></span>
-						</li>
 						<li>
 							<a href="https://www.linkedin.com/in/va-kumar" target="_blank">
-								<img src="images/linkedIn_black.png"></i>
+								<i class="fab fa-linkedin networkingIcons"></i>
 							</a>
 						</li>
 						<li>
 							<a href="https://github.com/vakumar0" target="_blank">
-								<img src="images/github_black.png"></i></li>
+								<i class="fab fa-github-square networkingIcons"></i>
 							</a>					
 						<li>
 							<a href="mailto:kumarvaibhav1602@gmail.com" target="_blank">
-								<img src="images/gmail_black.png"></i>
+								<i class="fas fa-envelope-square networkingIcons"></i>
 							</a>
 						</li>					
 					</ul>
@@ -45,17 +42,15 @@
 			</div>
 		</div>
 		<div id="landingPage">
-			<div id="leftPanel">
-				<h1>
+			<div class="landingPage_container">
 					<p id="hello">HELLO!</p>
 					<p id="iam">I'm a</p>
-					<p id="engineer" class="highlight">software engineer</span>
-					</p>				
-				</h1>			
-			</div>
-			<div id="rightPanel">
-				<div id="image"></div>
-			</div>
+					<div id="engineer">
+						<div class="highlight">
+							<p>software engineer</p>
+						</div>
+					</div>			
+			</div>			
 		</div>
 		<div id="about">
 			<div class="subheader">
@@ -85,6 +80,9 @@
 				</div>
 			</div>
 			<div id="projectsContent">	
+				<div class="projectInfo">
+					<p>Few other projects can be found on my GitHub profile. Github projects were developed just for educational purposes i.e. to implement new technologies and learn best coding practices.</p>
+				</div>
 				<div id="projectsInnerContent">
 					<div id="ivpPolaris">
 						<a href="html/polaris.html">
@@ -116,44 +114,93 @@
 						<div class="viewProject">
 							<a href="html/tlg.html">View Project >></a>
 						</div>					
-					</div>
-				</div>			
+					</div>											
+				</div>										
 			</div>
 		</div>
 		<div id="skills">	
 			<div>
 				<div class="subheader">
 					<div class="title"></div>
-					<div class="yellowDiv">
-						<h1>Tech Stack</h1>
+					<div class="yellowDiv">						
+						<h1>Work Experience</h1>
 					</div>
-				</div>		
-				<div id="stack">
-					<div id="stackContent"></div>
-				</div>					
+				</div>	
+				<div class="work_experience_container">
+					<div class="side_yellow_bar"></div>					
+					<div class="work_experience_content">
+						<ul>
+							<li>Proposed and implemented ideas for IVP’s new product theme such as font-family, minimalistic header section, redesigned
+								menus and filters, colour palettes, etc.
+							</li>																					
+							<li>
+								Collaborated with Product Architects and Team Leads for project stability and optimizations.
+							</li>
+							<li>
+								Trained and mentored junior programmers in programming methodologies and best practices.
+							</li>
+						</ul>
+						<div class="download_button">
+							<div class="download_resume">
+								<a href="../files/vaibhav_kumar_cv.pdf" download>
+									Download Full CV
+								</a>						
+							</div>						
+						</div>
+					</div>					
+				</div>							
 			</div>						
-		</div>		
+		</div>	
+		<div id="awards">
+			<div>
+				<div class="subheader">
+					<div class="title"></div>
+					<div class="yellowDiv">
+						<!-- <h1>Tech Stack</h1> -->
+						<h1>Awards & Achivements</h1>
+					</div>
+				</div>	
+				<div class="awards_section">
+					<div class="awards_section_container">
+						<div class="techUSS certificates">
+							<div class="awards_gradient">
+								<div class="certificates_date">2019</div>
+								<div class="certificates_name">Tech USS</div>
+							</div>							
+						</div>
+						<div class="scholarship certificates">
+							<div class="awards_gradient">
+								<div class="certificates_date">2017</div>
+								<div class="certificates_name">Scholarship</div>
+							</div>							
+						</div>
+						<div class="hackathon certificates">
+							<div class="awards_gradient">
+								<div class="certificates_date">2019</div>
+								<div class="certificates_name">IVP Hackathon</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div id="footer">	
-			<div id="footerTitle">Let's Connect !</div>
+			<div id="footerTitle">Have a question or do you want to talk tech?</div>
 			<ul>
 				<li>
 					<a href="https://www.linkedin.com/in/va-kumar" target="_blank">
-						<img src="images/linkedIn_white.png"></i>
-						<div class="iconInfo">LinkedIn</div>
+						<i class="fab fa-linkedin networkingIconsWhite"></i>
 					</a>
 				</li>
 				<li>
 					<a href="https://github.com/vakumar0" target="_blank">
-						<img src="images/github_white.png"></i>
-						<div class="iconInfo">GitHub</div>
-					</a>
-				</li>			
+						<i class="fab fa-github-square networkingIconsWhite"></i>
+					</a>					
 				<li>
 					<a href="mailto:kumarvaibhav1602@gmail.com" target="_blank">
-						<img src="images/gmail_white.png"></i>
-						<div class="iconInfo">Gmail</div>
+						<i class="fas fa-envelope-square networkingIconsWhite"></i>
 					</a>
-				</li>					
+				</li>				
 			</ul>		
 		</div>			
 	</div>
